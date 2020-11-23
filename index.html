@@ -1,0 +1,35 @@
+<html>
+    <head>
+            <title>Image Slider</title>
+            <link rel="stylesheet" type="text/css" href="slick.css">
+            <link rel="stylesheet" type="text/css" href="slick-theme.css">
+            <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="align">
+        <div class="single-item">
+            <div><img src="img1.jpg" alt="img1"></div>
+            <div><img src="img2.jpg" alt="img2"></div>
+            <div><img src="img3.jpg" alt="img3"></div>
+            <div><img src="img4.jpg" alt="img4"></div>
+            <div><img src="img5.jpg" alt="img5"></div>
+            <div><img src="img6.jpg" alt="img6"></div>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick.min.js"></script>
+
+
+        <script type="text/javascript">
+            $('.single-item').slick({
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              fade: true,
+          });
+          </script>
+
+    </body>
+</html>
